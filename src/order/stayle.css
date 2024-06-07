@@ -1,0 +1,79 @@
+.order__title {
+    margin: 35px 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.order__content {
+    border: 1px solid #55B74C;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order__box {
+    display: flex;
+    flex-direction: column;
+    max-width: 689px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.order__box-name, .order__box-num, .order__box-text{
+    padding: 10px;
+    border: 1px solid #55B74C;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #898989;
+    outline: none;
+}
+
+.order__box-img {
+    max-width: 390px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.order__box-text {
+    height: 219px;
+    resize: none;
+}
+
+.order__box-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order__box-content-search, .order__box-content-btn {
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    padding: 5px 25px;
+    cursor: pointer;
+    color: #fff;
+    background: #55B74C;
+    transition: 500ms;
+    border: 1px solid #55B74C;
+}
+
+.order__box-content-btn {
+    width: 303px;
+    color: #fff;
+    background: #55B74C;
+}
+
+.order__box-content-search {
+    width: 355px;
+}
+
+.order__box-content-btn {
+    width: 303px;
+}
+
+.order__box-content-search:hover, .order__box-content-btn:hover {
+    color: #55B74C;
+    background: #fff;
+}

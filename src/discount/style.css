@@ -1,0 +1,42 @@
+.discount__title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.discount__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount__card {
+    width: 278px;
+}
+
+.discount__card-title {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.discount__card-price {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.discount__card-btn {
+    background: #55B74C;
+    color: #fff;
+    border-radius: 7px;
+    border: 2px solid #55B74C;
+    width: 100%;
+    padding-block: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.discount__card-btn:hover {
+    color: #55B74C;
+    background: #fff;
+}
